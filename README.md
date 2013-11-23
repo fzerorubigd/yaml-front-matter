@@ -1,4 +1,4 @@
-yaml-front-matter
+YAML Front matter
 =================
 
-YAML Front matter extractor
+YAML Front matter extractor, Use Symfony::YAML to extract the yaml meta data from the given file.
