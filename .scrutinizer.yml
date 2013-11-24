@@ -3,8 +3,11 @@ filter:
         - 'vendor/*'
         - 'app/*'
         - 'web/*'
+        
+before_commands:
+    - composer install
+        
 tools:
     php_cpd: true
     php_pdepend: true
-    php_code_coverage:
-        config_path: phpunit.xml.dist
+    php_code_coverage: true
